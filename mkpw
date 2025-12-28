@@ -1340,7 +1340,7 @@ def make_password(
     chars: tuple, length: int, diceware: bool, separator: str
 ) -> str:
     if diceware:
-        prefix = str(choice(digits[2:]))
+        prefix = choice(digits[2:])
     else:
         prefix = ""
     password = prefix + separator.join(choice(chars) for _ in range(length))
