@@ -1,2 +1,2 @@
-# pwg
-python password generator
+# mkpw
+python diceware password generator
