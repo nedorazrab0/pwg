@@ -1,2 +1,2 @@
 # mkpw
-python diceware password generator
+python password/diceware-like passphrase generator
