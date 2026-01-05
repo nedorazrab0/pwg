@@ -19,7 +19,7 @@ def contains(items: tuple, sub_items: str) -> bool:
     result = any(_ in items for _ in sub_items)
     return result
 
-def make_complex_password(chars: str, length: int) -> str:
+def make_complex_password(chars: tuple, length: int) -> str:
     """Make a password containing all char types."""
     while True:
         password = make_password(chars, length, False, "")
